@@ -3,139 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pratik Belgaokar - Resume</title>
-    <style>
-        /* Global styles */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #003366;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-        header h1 {
-            margin: 0;
-        }
-        header p {
-            margin: 5px 0;
-            font-size: 1.1rem;
-        }
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            padding: 5px 0;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .skills li, .experience li {
-            padding-left: 20px;
-        }
-        .education, .experience, .skills {
-            margin-bottom: 30px;
-        }
-
-        /* Mobile-specific styles */
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-            }
-            .container {
-                width: 100%;
-                padding: 15px;
-            }
-            header h1 {
-                font-size: 1.8rem;
-            }
-            header p {
-                font-size: 1rem;
-            }
-            h2 {
-                font-size: 1.3rem;
-            }
-            ul.skills, ul.experience {
-                padding-left: 15px;
-            }
-        }
-
-        /* Large screen */
-        @media (min-width: 1200px) {
-            .container {
-                width: 80%;
-            }
-        }
-
-        /* Common link styles */
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Pratik Belgaokar - Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Pratik Belgaokar</h1>
-        <p>SQL Developer | Application Engineer | Data Engineering Enthusiast</p>
+        <p>Experienced IT professional with over 5 years of expertise in SQL Development and Application Engineering</p>
     </header>
-    <div class="container">
-        <div class="section">
-            <h2>Professional Summary</h2>
-            <p>Experienced IT professional with over 5 years of expertise in SQL Development and Application Engineering. With a strong focus on database management, performance optimization, and data security, I have a proven track record in designing complex queries and enhancing database efficiency. My background in Application Engineering has given me a deep understanding of application integration and development. Additionally, I bring skills in data engineering, including ETL processes, big data tools, and cloud data services (AWS and Azure), enhancing my ability to manage diverse data environments. Known for my problem-solving abilities, attention to detail, and commitment to delivering high-quality solutions, I strive to align technical implementations with business objectives.</p>
-        </div>
-
-        <div class="section">
-            <h2>Skills</h2>
-            <ul class="skills">
-                <li><strong>Programming Languages:</strong> Python (with libraries like NumPy and Pandas), SQL</li>
-                <li><strong>Big Data & Data Processing Tools:</strong> Apache Hadoop, Apache Spark, PySpark, Apache Kafka</li>
-                <li><strong>Data Engineering & ETL Tools:</strong> Apache Airflow, Docker, Kubernetes</li>
-                <li><strong>Cloud Data Services:</strong> AWS (Glue, Lambda, Kinesis, Redshift), Azure (Data Factory, Data Lake, Synapse Analytics)</li>
-                <li><strong>Databases:</strong> SQL Server, MySQL, Oracle, MongoDB</li>
-                <li><strong>BI & Data Visualization:</strong> Tableau, Power BI</li>
-                <li><strong>Version Control:</strong> Git, GitHub</li>
-                <li><strong>Operating Systems:</strong> Unix, Windows</li>
+    
+    <section id="summary">
+        <h2>Professional Summary</h2>
+        <p>Experienced IT professional with over 5 years of expertise in SQL Development and Application Engineering. With a strong focus on database management, performance optimization, and data security, I have a proven track record in designing complex queries and enhancing database efficiency. My background in Application Engineering has given me a deep understanding of application integration and development. Additionally, I bring skills in data engineering, including ETL processes, big data tools, and cloud data services (AWS and Azure), enhancing my ability to manage diverse data environments. Known for my problem-solving abilities, attention to detail, and commitment to delivering high-quality solutions, I strive to align technical implementations with business objectives.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python (with libraries like NumPy and Pandas), SQL</li>
+            <li>Big Data & Data Processing Tools: Apache Hadoop, Apache Spark, PySpark, Apache Kafka</li>
+            <li>Data Engineering & ETL Tools: Apache Airflow (workflow orchestration), Docker, Kubernetes</li>
+            <li>Cloud Data Services:
+                <ul>
+                    <li>AWS: AWS Glue, AWS Lambda, Kinesis, Redshift</li>
+                    <li>Azure: Azure Data Factory, Azure Data Lake, Synapse Analytics, Cosmos DB</li>
+                </ul>
+            </li>
+            <li>Databases:
+                <ul>
+                    <li>SQL Databases: Microsoft SQL Server, MySQL, Oracle</li>
+                    <li>NoSQL Databases: MongoDB, Cosmos DB (Azure)</li>
+                </ul>
+            </li>
+            <li>Business Intelligence & Data Visualization: Tableau, Power BI</li>
+            <li>Version Control: Git, GitHub</li>
+            <li>Operating Systems: Unix, Windows</li>
+            <li>Data Engineering Concepts: Proficient in ETL processes, data warehousing, data migration, data integration, and data security</li>
+        </ul>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Kiya.ai | Associate Consultant (SQL Developer) | July 2021 – Present</h3>
+            <ul>
+                <li>Designed, developed, and maintained SQL Server databases and related applications</li>
+                <li>Streamlined and optimized SQL queries, stored procedures, and database schemas for performance</li>
+                <li>Monitored database health, performed regular backups, recovery operations, indexing, and integrity checks</li>
+                <li>Implemented and enforced database security policies, ensuring compliance with data protection regulations</li>
+                <li>Worked with software developers on database solutions and provided technical support</li>
+                <li>Gathered requirements, communicated project progress, and managed revenue through billing and sign-offs</li>
+                <li>Assisted in data modelling, data dictionaries, and created project documentation</li>
             </ul>
         </div>
-
-        <div class="section">
-            <h2>Experience</h2>
-            <ul class="experience">
-                <li><strong>Kiya.ai | Associate Consultant (SQL Developer) | July 2021 – Present</strong>
-                    <ul>
-                        <li>Designed, developed, and maintained SQL Server databases and related applications.</li>
-                        <li>Streamlined SQL queries, stored procedures, and database schemas for performance.</li>
-                        <li>Monitored database health, performed backups, recovery operations, and security enforcement.</li>
-                    </ul>
-                </li>
-                <li><strong>Onward Technologies Ltd | Application Support L1 | Aug 2019 – Jun 2021</strong>
-                    <ul>
-                        <li>Ensured optimal performance of TCS BaNCS, providing first and second-level support for incidents.</li>
-                        <li>Optimized database performance, conducted regular backups, and automated routine tasks with scripting.</li>
-                    </ul>
-                </li>
-      
+        <div class="job">
+            <h3>Onward Technologies Ltd | Application Support L1 | Aug 2019 – Jun 2021</h3>
+            <ul>
+                <li>Ensured optimal performance and minimal downtime of TCS BaNCS, resolving issues swiftly</li>
+                <li>Provided first and second-level support for incidents and service requests, adhering to SLAs</li>
+                <li>Analysed and resolved application issues, coordinating with development teams when needed</li>
+                <li>Automated routine tasks with shell scripting to enhance efficiency</li>
+                <li>Optimized database performance and conducted regular backups and disaster recovery drills</li>
+                <li>Worked with cross-functional teams for deployments, upgrades, and resolving critical incidents</li>
+                <li>Managed high-pressure situations like application downtime, branch mergers, DR-DRILL activities, and Year-End EOD activities</li>
+                <li>Handled daily tasks including EOD, SOD, backend data updates, and report generation</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Agribusiness Information Management System | Aug 2023 – Present</h3>
+            <p>A government-led project providing vital agricultural and marine services. It streamlines access to resources, data, and support for farmers and fisheries, enhancing productivity, sustainability, and economic growth through efficient information management and service delivery tailored to the needs of the agricultural and marine sectors.</p>
+            <p><strong>Technology Used:</strong> Windows, .NET Core, MS SQL Server 19, Marvel App</p>
+        </div>
+        <div class="project">
+            <h3>Ministry of Social Services and Urban Development | Jan 2023 – Dec 2023</h3>
+            <p>A government initiative that enables citizens to access a wide range of benefits and support programs. The project simplifies the process of applying for and receiving aid, ensuring that eligible individuals can efficiently obtain assistance in services such as healthcare, education, housing, and financial support.</p>
+            <p><strong>Technology Used:</strong> Windows, .NET Core, MS SQL Server 19, Marvel App</p>
+        </div>
+        <div class="project">
+            <h3>Port Online Department Portal | Jan 2022 – Mar 2023</h3>
+            <p>Designed to monitor and manage island and yacht services for both citizens and non-citizens. It ensures efficient tracking of maritime activities, providing seamless access to services, safety protocols, and regulatory compliance for all users of island and yacht facilities.</p>
+            <p><strong>Technology Used:</strong> Windows, .NET Core, MS SQL Server 19, Marvel App</p>
+        </div>
+        <div class="project">
+            <h3>Core Banking Solutions | Jul 2021 – Dec 2021</h3>
+            <p>The OMNI application, a Core Banking System (CBS), where my role was designing, developing, and maintaining SQL Server databases and deploying critical files such as .red, .class, and .jsp in client environments. Collaborated with teams for deployments and upgrades, conducted root cause analysis, and communicated with clients to manage project progress and requirements.</p>
+            <p><strong>Technology Used:</strong> Windows, Tomcat Server, MS SQL Server, Oracle</p>
+        </div>
+        <div class="project">
+            <h3>Core Banking Solutions | Aug 2019 – Jun 2021</h3>
+            <p>TCS Core Banking Solution (B@NCS) is being implemented for Bank of Maharashtra as a comprehensive, end-to-end core banking system. This project covers the implementation of core banking functionalities and interfaces, providing efficient and personalized customer service. Key modules such as Loans, Deposits, Remittances, General Ledger (GL), Testing, EXIM, and Interfaces are included. The solution ensures compliance with governance standards, with tailored functionalities developed as per the client's requirements. Ultimately, this solution will deliver a fully functional, centralized core banking system for the client.</p>
+            <p><strong>Technology Used:</strong> Unix, Oracle 12C</p>
+        </div>
+    </section>
+    
+    <section id="achievements">
+        <h2>Key Achievements</h2>
+        <ul>
+            <li>Optimized Processing Efficiency: Successfully reduced the processing time from 3.30 hours to 2.15 hours, achieving a 35.71% improvement in efficiency.</li>
+            <li>Increased Stream Capacity: Scaled the processing capability from 180 to 300 streams, resulting in a 66.67% increase in throughput.</li>
+            <li>Enhanced System Performance: Leveraged optimization techniques to handle a higher volume of data streams in significantly less time, contributing to improved overall system performance.</li>
+        </ul>
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <p>Pune University, Pune, India | Jun 2015 – Jun 2018</p>
+        <p>Bachelor of Engineering: Electronics & Telecommunication Engineering</p>
+    </section>
+    
+    <section id="interests">
+        <h2>Interest In Data</h2>
+        <ul>
+            <li>Big Data Analytics: Passionate about uncovering insights from large datasets to drive business decisions. Completed several courses on big data concepts, analytics techniques, and high-speed processing.</li>
+            <li>Data-Driven Decision Making: Enthusiastic about using data to optimize processes and improve outcomes. Interested in exploring advanced data analytics, machine learning, and predictive modelling.</li>
+            <li>Database Management: Deep interest in database design, performance tuning, and ensuring data integrity. Enjoy working with relational databases like SQL Server and Oracle to manage and analyse complex datasets.</li>
+            <li>Continuous Learning: Committed to staying updated on the latest trends in data analytics and database technologies. Actively pursuing certifications and courses to enhance my data skills.</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Pratik Belgaokar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
