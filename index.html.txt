@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik Belgaokar - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .skills li, .experience li {
+            padding-left: 20px;
+        }
+        .education, .experience, .skills {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pratik Belgaokar</h1>
+        <p>SQL Developer | Application Engineer | Data Engineering Enthusiast</p>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Experienced IT professional with over 5 years of expertise in SQL Development and Application Engineering. With a strong focus on database management, performance optimization, and data security, I have a proven track record in designing complex queries and enhancing database efficiency. My background in Application Engineering has given me a deep understanding of application integration and development. Additionally, I bring skills in data engineering, including ETL processes, big data tools, and cloud data services (AWS and Azure), enhancing my ability to manage diverse data environments. Known for my problem-solving abilities, attention to detail, and commitment to delivering high-quality solutions, I strive to align technical implementations with business objectives.</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li><strong>Programming Languages:</strong> Python (with libraries like NumPy and Pandas), SQL</li>
+                <li><strong>Big Data & Data Processing Tools:</strong> Apache Hadoop, Apache Spark, PySpark, Apache Kafka</li>
+                <li><strong>Data Engineering & ETL Tools:</strong> Apache Airflow, Docker, Kubernetes</li>
+                <li><strong>Cloud Data Services:</strong> AWS (Glue, Lambda, Kinesis, Redshift), Azure (Data Factory, Data Lake, Synapse Analytics)</li>
+                <li><strong>Databases:</strong> SQL Server, MySQL, Oracle, MongoDB</li>
+                <li><strong>BI & Data Visualization:</strong> Tableau, Power BI</li>
+                <li><strong>Version Control:</strong> Git, GitHub</li>
+                <li><strong>Operating Systems:</strong> Unix, Windows</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <ul class="experience">
+                <li><strong>Kiya.ai | Associate Consultant (SQL Developer) | July 2021 – Present</strong>
+                    <ul>
+                        <li>Designed, developed, and maintained SQL Server databases and related applications.</li>
+                        <li>Streamlined SQL queries, stored procedures, and database schemas for performance.</li>
+                        <li>Monitored database health, performed backups, recovery operations, and security enforcement.</li>
+                    </ul>
+                </li>
+                <li><strong>Onward Technologies Ltd | Application Support L1 | Aug 2019 – Jun 2021</strong>
+                    <ul>
+                        <li>Ensured optimal performance of TCS BaNCS, providing first and second-level support for incidents.</li>
+                        <li>Optimized database performance, conducted regular backups, and automated routine tasks with scripting.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Agribusiness Information Management System | Aug 2023 – Present</strong></li>
+                <li><strong>Ministry of Social Services and Urban Development | Jan 2023 – Dec 2023</strong></li>
+                <li><strong>Port Online Department Portal | Jan 2022 – Mar 2023</strong></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Pune University, Pune, India | Jun 2015 – Jun 2018</strong> - Bachelor of Engineering: Electronics & Telecommunication Engineering</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
