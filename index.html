@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pratik Belgaokar - Resume</title>
     <style>
+        /* Global styles */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
         header {
             background-color: #333;
@@ -21,8 +23,13 @@
         header h1 {
             margin: 0;
         }
+        header p {
+            margin: 5px 0;
+            font-size: 1.1rem;
+        }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 1000px;
             margin: 20px auto;
             background-color: #fff;
             padding: 20px;
@@ -31,6 +38,7 @@
         }
         h2 {
             color: #333;
+            margin-bottom: 10px;
         }
         ul {
             list-style-type: none;
@@ -47,6 +55,45 @@
         }
         .education, .experience, .skills {
             margin-bottom: 30px;
+        }
+
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                width: 100%;
+                padding: 15px;
+            }
+            header h1 {
+                font-size: 1.8rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            ul.skills, ul.experience {
+                padding-left: 15px;
+            }
+        }
+
+        /* Large screen */
+        @media (min-width: 1200px) {
+            .container {
+                width: 80%;
+            }
+        }
+
+        /* Common link styles */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -91,24 +138,4 @@
                         <li>Optimized database performance, conducted regular backups, and automated routine tasks with scripting.</li>
                     </ul>
                 </li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Agribusiness Information Management System | Aug 2023 – Present</strong></li>
-                <li><strong>Ministry of Social Services and Urban Development | Jan 2023 – Dec 2023</strong></li>
-                <li><strong>Port Online Department Portal | Jan 2022 – Mar 2023</strong></li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>Pune University, Pune, India | Jun 2015 – Jun 2018</strong> - Bachelor of Engineering: Electronics & Telecommunication Engineering</li>
-            </ul>
-        </div>
-    </div>
-</body>
-</html>
+      
